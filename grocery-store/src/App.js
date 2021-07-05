@@ -5,6 +5,7 @@ import Layout from './components/layout/Layout';
 import LoadingSpinner from './components/UI/LoadingSpinner';
 
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route path='/home' exact>
               <Home />
+            </Route>
+            <Route path='/login' >
+              <Login />
             </Route>
           </Switch>
         </Suspense>

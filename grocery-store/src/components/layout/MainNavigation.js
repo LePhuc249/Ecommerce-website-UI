@@ -12,10 +12,10 @@ const MainNavigation = () => {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <NavLink to='' activeClassName={classes.active}>View Cart</NavLink>
+              <NavLink to='/home' activeClassName={classes.active}>View Cart</NavLink>
             </li>
             <li>
-              <NavLink to='' activeClassName={classes.active}>Login</NavLink>
+              <NavLink to='/login' activeClassName={classes.active}>Login</NavLink>
             </li>
           </ul>
         </nav>
