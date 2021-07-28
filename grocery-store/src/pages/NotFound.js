@@ -1,12 +1,15 @@
-import { Fragment } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return (
-    <Fragment>
-      <div className='centered'>
-        <h2 className='not-found-content'>Page Not Found!!!</h2>
-      </div>
-    </Fragment>
+    <>
+      <h1>404 Oops! Page not found
+      <Link to='/'>
+        Back to Home
+      </Link>
+      </h1>
+    </>
   );
 };
 
